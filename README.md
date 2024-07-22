@@ -2,13 +2,13 @@
 
 Clone the Repository and install dependencies `composer install`
 
-Set up ENV
+### Set up ENV
 
 ```
 cp .env.example .env
 ```
 
-Define database connection in .env
+### Define database connection in .env
 
 ```
 DB_CONNECTION=mysql
@@ -19,19 +19,19 @@ DB_USERNAME=your_username
 DB_PASSWORD=your_password
 ```
 
-Generate Application Key
+### Generate Application Key
 
 ```
 php artisan key:generate
 ```
 
-Run migrations and seed DB
+### Run migrations and seed DB
 
 ```
 php artisan migrate --seed
 ```
 
-Start the local development server
+### Start the local development server
 
 ```
 php artisan serve
